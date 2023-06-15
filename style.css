@@ -1,0 +1,164 @@
+
+                                                             /* ALL */
+
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+                                                            /* HEADER */
+
+.header{
+    width: 100%;
+    color: aliceblue;
+    padding: 20px;
+    background-color: rgb(73, 73, 73);
+    box-sizing: border-box;
+}
+
+                                                            /* CONTAINER */
+
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+                                                            /* HEADER-ROW */
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}                                                           
+
+                                                           /* HEADER-LOGO */
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+                                                             /* LOGO-IMG */
+
+.logo-img {
+    margin-left: 40px;
+}
+
+                                                         /* LOGO-TITLE */
+
+
+
+                                                         /* HEADER-MENU */
+
+.header-menu {
+    flex-grow: 3;
+}
+
+                                                            /* MENU */
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+                                                           /* MENU-ITEM */
+
+.menu-item {
+    /* не будет знаков в списке */
+    list-style: none;
+}
+
+                                                          /* MENU-LINK */
+
+.menu-link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+                                                            /* MAIN */
+
+
+                                                           /* BANNER */
+
+.banner-section {
+    padding: 100px 0;
+    background: url(img/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+                                                        /* BANNER-TEXT */
+
+
+
+                                                        /* BANNER-TITLE */
+
+.banner-title {
+    font-size: 48px;
+}
+
+
+                                                            /* CARDS */
+
+.cards{
+    padding: 50px 0;
+}
+
+                                                          /* CARDS-ROW */
+
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+                                                           /* CARD */
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0px 2px 7px 0px plum;
+}
+
+                                                           /* CARD-IMG */
+
+                                                           /* CARD-BODY */
+
+
+                                                    /* CARD-TITLE, CARD-TEXT */
+
+.card-title , .card-text{
+    color: blue;
+    text-align: center;
+}
+
+                                                          /* CARD-LINK */
+
+.card-link{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+
+                                                            /* FOOTER */
+
+.footer{
+    background-image: url(img/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+                                                              /* COPY */
+
+.copy{
+    color: aliceblue;
+}
